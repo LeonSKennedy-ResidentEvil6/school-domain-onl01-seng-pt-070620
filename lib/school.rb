@@ -32,7 +32,7 @@ class School
 
 def sort
     @roster.each do |grade, names| 
-      sort_by { |grade, names| grade }
+      names.sortsort_by { |grade, names| grade }
 end 
 
 end 
