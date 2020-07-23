@@ -32,7 +32,7 @@ class School
 
 def sort
     @roster.each do |grade, names| 
-      names.sort.reverse
+      @roster[grade] = names.sort.reverse
     end 
 end 
 
