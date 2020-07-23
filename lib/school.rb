@@ -31,7 +31,8 @@ class School
 # is able to sort the students
 
 def sort
-    @roster.sort_by { |grade, names| grade }
+    @roster.each do |grade, names| 
+      sort_by { |grade, names| grade }
 end 
 
 end 
