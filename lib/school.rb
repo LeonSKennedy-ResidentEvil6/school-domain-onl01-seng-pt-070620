@@ -31,7 +31,7 @@ class School
 # is able to sort the students
 
 def sort
-    sorted_name = @roster[sorted_name.sort_by { |grade, names| names } ]
+    @roster.sort_by 
 end 
 
 end 
